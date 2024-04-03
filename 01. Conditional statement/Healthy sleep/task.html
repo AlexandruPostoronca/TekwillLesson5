@@ -1,0 +1,181 @@
+<h2>Healthy sleep</h2>
+<p>Ann watched a health TV program and learned that oversleeping is as bad for your health as not
+    getting enough sleep. She decided to follow TV recommendations and keep track of how many hours she spends
+    sleeping.
+</p>
+<p>You are <strong>given</strong> three numbers:
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>A</mi>
+            </mrow>
+            <annotation encoding="application/x-tex"> A</annotation>
+        </semantics>
+    </math>
+    ,
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>B</mi>
+            </mrow>
+        </semantics>
+    </math>
+    and
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>H</mi>
+            </mrow>
+        </semantics>
+    </math>
+    . According to TV, one should sleep at least
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>A</mi>
+            </mrow>
+        </semantics>
+    </math>
+    hours per day, but no more than
+    <math
+            xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>B</mi>
+            </mrow>
+        </semantics>
+    </math>
+    hours.
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>H</mi>
+            </mrow>
+        </semantics>
+    </math>
+    is how many hours Ann sleeps.
+</p>
+<p><strong>Task</strong>: If Ann sleeps less than
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>A</mi>
+            </mrow>
+        </semantics>
+    </math>
+    hours, print "Deficiency". If she sleeps more than
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>B</mi>
+            </mrow>
+        </semantics>
+    </math>
+    hours, print "Excess". If her sleep fits the recommendations, print "Normal".
+</p>
+<p><strong>Input format</strong>: three numbers
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>A</mi>
+            </mrow>
+        </semantics>
+    </math>
+    ,
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>B</mi>
+            </mrow>
+        </semantics>
+    </math>
+    ,
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>H</mi>
+            </mrow>
+        </semantics>
+    </math>
+    ,
+    where
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>A</mi>
+            </mrow>
+        </semantics>
+    </math>
+    is always less than or equal to
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <semantics>
+            <mrow>
+                <mi>B</mi>
+            </mrow>
+        </semantics>
+    </math>
+    .
+</p>
+
+<button onclick="getElementById('hint-1169').style.display = getElementById('hint-1169').style.display === 'inline' ? 'none' : 'inline'">
+    Hint
+</button>
+<div id="hint-1169" style="display:none;">
+    <p>1. Keep in mind that tests are case-sensitive: "excess" or "EXCESS" is not correct.</p>
+    <p>2. Think <strong>carefully</strong> about all the conditions. Pay attention to the conditional operators:
+        distinguish between
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <semantics>
+                <mrow>
+                    <mo>&lt;</mo>
+                </mrow>
+            </semantics>
+        </math>
+        and
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <semantics>
+                <mrow>
+                    <mo>≤</mo>
+                </mrow>
+            </semantics>
+        </math>
+        ;
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <semantics>
+                <mrow>
+                    <mo>&gt;</mo>
+                </mrow>
+            </semantics>
+        </math>
+        and
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <semantics>
+                <mrow>
+                    <mo>≥</mo>
+                </mrow>
+            </semantics>
+        </math>
+        .
+    </p>
+</div>
+<div><p><strong> Sample Input 1: </strong></p>
+    <pre>6
+10
+8</pre>
+    <p><strong> Sample Output 1: </strong></p>
+    <pre>Normal</pre>
+</div>
+<div><p><strong> Sample Input 2: </strong></p>
+    <pre>7
+9
+10</pre>
+    <p><strong> Sample Output 2: </strong></p>
+    <pre>Excess</pre>
+</div>
+<div><p><strong> Sample Input 3: </strong></p>
+    <pre>7
+9
+2</pre>
+    <p><strong> Sample Output 3: </strong></p>
+    <pre>Deficiency</pre>
+</div>

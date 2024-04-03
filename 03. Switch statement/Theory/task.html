@@ -1,0 +1,107 @@
+<h2>Switch statement</h2><p>You already know how to shape the control flow of a program using if-else statements.
+    Perhaps, you have faced situations in which you had to stack and nest multiple if-else statements to get the desired
+    result. In this topic, you will learn an alternative way to deal with multiple choices.</p>
+
+<h4>When a conditional statement is not so good</h4><p>Suppose you need to write a program that performs different
+    actions depending on the value of a variable. For example, choosing an action from the menu of a game. To do that
+    you can use a conditional statement with multiple branches as shown below.</p>
+<pre><code>int action = ...; // a certain value from 1 to 4
+
+if (action == 1) {
+    System.out.println("Starting a new game...");
+} else if (action == 2) {
+    System.out.println("Loading a saved game");
+} else if (action == 3) {
+    System.out.println("Displaying help...");
+} else if (action == 4) {
+    System.out.println("Exiting...");
+} else {
+    System.out.println("Unsuitable action, please, try again");
+}</code></pre>
+<p>Of course, this code handles the task. But if your conditional statement has a lot of branches, it can be hard to
+    understand for people.</p>
+
+<h4>Three keywords: switch, case, and default</h4><p><strong>The switch statement</strong> provides a way to choose
+    between multiple cases based on the value of a single variable (not an expression!). The variable can be an integer
+    number, character, string, or enumeration. The last two types will be examined further in the following topics.</p>
+<p>With the switch statement, the previous code will look like this:</p>
+<pre><code>switch (action) {
+    case 1:
+        System.out.println("Starting a new game...");
+        break;
+    case 2:
+        System.out.println("Loading a saved game");
+        break;
+    case 3:
+        System.out.println("Displaying help...");
+        break;
+    case 4:
+        System.out.println("Exiting...");
+        break;
+    default:
+        System.out.println("Unsuitable action, please, try again");
+}</code></pre>
+<p>As you can see, this code is well-structured and easier to read than the equal conditional statement. We have not
+    explained the keywords <code>switch</code>, <code>case</code> and <code>break</code> yet, but you can already guess
+    what they mean.</p>
+
+<h4>The general form of the switch statement</h4><p>The most general form of the switch statement is the following</p>
+<pre><code>switch (variable) {
+    case value1:
+        // do something here
+        break;
+    case value2:
+        // do something here
+        break;
+
+    //... other cases
+
+    case valueN:
+        // do something here
+        break;
+    default:
+        // do something by default
+        break; // it can be omitted
+}</code></pre>
+<p>The <code>switch</code> and <code>case</code> keywords are always required here. The keywords <code>break</code> and
+    <code>default</code> are optional. The keyword <code>break </code>stops the execution of the whole switch statement,
+    not just one case.</p>
+<p>If a <code>case</code> does not have the <code>break</code> keyword, the following <code>case</code> will be executed
+    as well, including the <code>default</code> case. The <code>default</code> case is also executed if there's no other
+    <code>case</code> that matches the variable value. The <code>break</code> keyword in the <code>default</code> branch
+    is optional and can be omitted.</p>
+<p>A <code>case</code> section may contain any block of code, even a nested <code>switch</code> statement, however, it
+    is recommended to avoid deeply nested code structures whenever possible.</p>
+
+<h4>An example with "zero", "one" and "two"</h4>
+<p>Let's consider another example. The following code outputs the names of integer numbers or a default text. This
+    switch statement has three base cases and a single default case.</p>
+<pre><code>int val = ...;
+switch (val) {
+     case 0:
+         System.out.println("zero");
+         break;
+     case 1:
+         System.out.println("one");
+         break;
+     case 2:
+         System.out.println("two");
+         break;
+     default:
+         System.out.println("The value is less than zero or greater than two");
+}</code>
+</pre>
+<p>If <code>val</code> is 0, the code prints: <code>zero</code></p>
+<p>If <code>val</code> is 1, the code prints: <code>one</code></p>
+<p>if <code>val</code> is 10, the code prints: <code>The value is less than zero or greater than two</code></p>
+<p>If you forget the keyword <code>break</code> in a case, the compiler won't consider it an error. Let's remove it from
+    the second case (case 1) and assign 1 to <code>val</code>. The program prints:</p>
+<pre><code>one
+two</code></pre>
+<p>Omitting the <code>break</code> keyword is not a good practice. Try to avoid it.</p>
+<h4>Conclusion</h4>
+<p>When you have a limited number of cases to choose from, switch statements can help you avoid extensive if-else
+    constructions. For that, you need the <code>switch</code> keyword to introduce the value to evaluate, and
+    <code>case</code> for each of the possible values. Do not forget to also use the <code>break</code> keyword to
+    avoid executing extra cases and <code>default</code> branch to indicate the default behavior.</p>
+

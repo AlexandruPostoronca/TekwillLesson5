@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Inside a case the keyword break is always needed
+    is_correct: false
+  - text: The switch statement must always have a default case
+    is_correct: false
+  - text: If no case statements match the input value the default statement is executed
+    is_correct: true
+  - text: "A switch can work with the byte, short, char, and int primitive data types"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 10 Mar 2024 13:23:03 UTC"
+record: -1
+selected_options:
+  - 2
+  - 3
+custom_name: Statements
+local_check: true

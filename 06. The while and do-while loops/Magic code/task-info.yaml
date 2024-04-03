@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It counts the number of '0' in the number n.
+    is_correct: false
+  - text: It finds the greatest digit of the number n.
+    is_correct: false
+  - text: It rearranges digits of the number n.
+    is_correct: false
+  - text: It determines whether the number n is divisible by 10.
+    is_correct: false
+  - text: It counts the number of digits of the number n.
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 14 Mar 2024 21:42:54 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: Magic code
+local_check: true

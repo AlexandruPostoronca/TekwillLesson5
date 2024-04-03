@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 0
+    is_correct: false
+  - text: 0 2 4 6 8 10
+    is_correct: true
+  - text: 0 2 4 6 8 10 11
+    is_correct: false
+  - text: 1 3 5 7 9
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 14 Mar 2024 22:14:31 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: What does the code print
+local_check: true

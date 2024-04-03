@@ -1,0 +1,56 @@
+<h2>Ternary operator</h2>
+<p>Quite often you may need to assign different values to a variable depending on a certain condition. You may do it
+    conveniently with the help of the <strong>ternary operator</strong>.</p>
+
+<h4>What is the ternary operator?</h4>
+<p>The ternary operator is an operator which evaluates a condition and chooses one of two cases to execute. It is also
+    called the <strong>conditional operator</strong>. The operator can be considered as a form of the <code>if</code>-then-<code>else</code>
+    statement. The ternary operator should not be confused with the conditional statement, despite their similarity.
+    This operator can be used in places where an expression is expected.
+</p>
+<p>Sometimes <strong>the ternary operator</strong> is more readable and concise than the corresponding <strong>if
+    statement</strong>.</p><p>Let's start learning this operator with an example. Suppose we have to find the maximum of
+    two int variables, <code>a</code> and <code>b</code>. It is easy to write using a conditional statement:
+</p>
+<pre><code>int a = ...;
+int b = ...;
+int max = ...;
+
+if (a > b) {
+    max = a;
+} else {
+    max = b;
+}</code>
+</pre>
+<p>Here is what an equivalent ternary operator looks like:</p>
+<code>int max = a > b ? a : b;</code>
+<p>This code is more concise than the code above, isn't it?</p><p>The general syntax of the ternary operator is the
+    following:</p>
+<code>result = condition ? trueCase : elseCase;</code>
+<p>It includes two special symbols <code>?</code> and <code>:</code>.</p><p>Here, the <code>condition</code> is a
+    Boolean expression that evaluates to either <code>true</code> or <code>false</code>. If this expression is
+    <code>true</code>, the ternary operator evaluates <code>trueCase</code>, otherwise <code>elseCase</code> is
+    evaluated. It is important that <code>trueCase</code> and <code>elseCase</code> are expressions which can be reduced
+    to a common type. This type determines the type of the <code>result</code>.</p>
+
+<h4>Usage example</h4>
+<p>Let's consider another example that prints whether a number is even or odd.</p>
+<pre><code>int num = ...;  // it's initialized by a value
+System.out.println(num % 2 == 0 ? "even" : "odd");</code></pre>
+
+<p>This ternary operator consists of three operands: the value of the expression <code>num % 2 == 0</code>, and two
+    string literals <code>"even"</code> and <code>"odd"</code>. Its result type is <code>String</code>.</p>
+<p>Note: Java allows us to nest one ternary operator into another one, but it can be less readable than the
+    corresponding conditional statement. If you do this, be careful.</p>
+<p>Imagine you need to compare two integer numbers and print <code>equal</code> in case they are equal,
+    <code>more</code> if the first one has a bigger value than the second and <code>less</code> otherwise. The task can
+    be solved using a combination of 2 ternary operators:</p>
+<pre><code>int a = ...; // it's initialized by a value
+int b = ...; // it's initialized by a value
+String result = a == b ? "equal" :
+                a > b ? "more" : "less";</code></pre>
+
+<p>At first, the outer ternary operator checks equality of <code>a</code> and <code>b</code> numbers. If it is true,
+    <code>equal</code> is printed, otherwise, the nested ternary operator <code>a &gt; b ? "more" : "less"</code> is
+    calculated. To improve readability, the whole expression is divided into two lines.</p>
+

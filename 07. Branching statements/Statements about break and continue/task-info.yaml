@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Both keywords can be written in a body of for, while and do-while loops."
+    is_correct: true
+  - text: The keyword break can be written in a body of while and do-while loops.
+    is_correct: false
+  - text: The keywords break and continue can be written in the conditional statement
+      if-else.
+    is_correct: false
+  - text: The keyword continue cannot be written in a body of while and do-while loops.
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 14 Mar 2024 22:15:48 UTC"
+record: -1
+selected_options:
+  - 0
+custom_name: Statements about break and continue
+local_check: true

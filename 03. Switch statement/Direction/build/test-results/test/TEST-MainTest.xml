@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-03-10T21:52:21" hostname="DESKTOP-A97GDF4" time="0.017">
+  <properties/>
+  <testcase name="testGpt1" classname="MainTest" time="0.013"/>
+  <testcase name="testGpt2" classname="MainTest" time="0.001"/>
+  <testcase name="testGpt3" classname="MainTest" time="0.0"/>
+  <testcase name="testGpt4" classname="MainTest" time="0.0"/>
+  <testcase name="testGpt5" classname="MainTest" time="0.001"/>
+  <testcase name="testFromProblem" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

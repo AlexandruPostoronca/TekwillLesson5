@@ -1,0 +1,139 @@
+<h2>Floor-space of the room</h2><p>Citizens of the country named Malevia often experiment with the shapes of their
+    rooms. The rooms can be triangular, rectangular, and round. </p>
+
+<p>Write a program that calculates the floor area of the rooms.</p>
+
+<p><strong>Input data format</strong>: The type of the room shape and the relevant parameters.</p>
+
+<p><strong>Output data format</strong>: The area of the resulting room.</p>
+
+<p>Note that the value of 3.14 is used instead of the number π in Malevia.</p>
+
+<p>
+    <button onclick="getElementById('hint-478').style.display = getElementById('hint-478').style.display === 'inline' ? 'none' : 'inline'">
+        Hint
+    </button>
+</p>
+<div id="hint-478" style="display:none;">
+    <p><code>Math</code> library may help you solve this task. For square root use <code>Math.sqrt(x)</code>.</p>
+</div>
+
+<p>Input format used by the Malevians:</p>
+
+<pre><code>triangle
+a
+b
+c</code></pre>
+
+<p>where a, b, and c are lengths of the triangle sides.</p>
+
+<pre><code>rectangle
+a
+b</code></pre>
+
+<p>where <code>a</code> and <code>b</code> are lengths of the rectangle sides.</p>
+
+<pre><code>circle
+r</code></pre>
+
+<p>where <code>r</code> is the radius of the circle.</p>
+
+<button class="btn-sm btn-outline-secondary"
+        onclick="getElementById('hint-479').style.display = getElementById('hint-479').style.display === 'inline' ? 'none' : 'inline'">
+    Formulas
+</button>
+<div id="hint-479" style="display:none;">
+    <p>Use next formulas to calculate the area of the triangle, rectangle and circle:</p>
+    <ul>
+        <li>
+            <strong>triangle:</strong>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>A</mi>
+                        <mo>=</mo>
+                        <msqrt>
+                            <mi>s(s-a)(s-b)(s-c)</mi>
+                        </msqrt>
+                    </mrow>
+                </semantics>
+            </math>
+            where
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>s</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>a</mi>
+                                <mo>+</mo>
+                                <mi>b</mi>
+                                <mo>+</mo>
+                                <mi>c</mi>
+                            </mrow>
+                            <mn>2</mn>
+                        </mfrac>
+                    </mrow>
+                </semantics>
+            </math>
+        </li>
+        <li>
+            <strong>rectangle:</strong>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>A</mi>
+                        <mo>=</mo>
+                        <mi>a</mi>
+                        <mo>*</mo>
+                        <mi>b</mi>
+                    </mrow>
+                </semantics>
+            </math>
+        </li>
+        <li>
+            <strong>circle:</strong>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <semantics>
+                    <mrow>
+                        <mi>A</mi>
+                        <mo>=</mo>
+                        <mi>π</mi>
+                        <mo>*</mo>
+                        <msup>
+                            <mi>r</mi>
+                            <mn>2</mn>
+                        </msup>
+                    </mrow>
+                </semantics>
+            </math>
+        </li>
+    </ul>
+</div>
+
+<p>
+    Note that the input values (<code>a</code>, <code>b</code>, <code>c</code>, <code>r</code>) are <code>double</code>s,
+    and your answer should be too.
+</p>
+<div><p><strong> Sample Input 1: </strong></p>
+    <pre>rectangle
+4
+10</pre>
+    <p><strong> Sample Output 1: </strong></p>
+    <pre>40.0</pre>
+</div>
+<div><p><strong> Sample Input 2: </strong></p>
+    <pre>circle
+5</pre>
+    <p><strong> Sample Output 2: </strong></p>
+    <pre>78.5</pre>
+</div>
+<div><p><strong> Sample Input 3: </strong></p>
+    <pre>triangle
+3
+3
+3</pre>
+    <p><strong> Sample Output 3: </strong></p>
+    <pre>3.897114317029974</pre>
+</div>

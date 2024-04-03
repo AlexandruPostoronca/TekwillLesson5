@@ -1,0 +1,28 @@
+type: marketplace
+title: 05. Control flow statements
+language: English
+summary: |-
+  This is an introductory course about Control flow statements.
+  - 01. Conditional statement
+  - 02. Ternary operator
+  - 02. Switch statement
+  - 03. Switch expression
+  - 04. The for-loop
+  - 05. The while and do-while loops
+  - 06. Branching statements
+  - 07. Comments
+programming_language: Java
+content:
+  - 01. Conditional statement
+  - 02. Ternary operator
+  - 03. Switch statement
+  - 04. Switch expression
+  - 05. The for-loop
+  - 06. The while and do-while loops
+  - 07. Branching statements
+  - 08. Comments
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_21
+vendor:
+  name: Alexandru Umaneț

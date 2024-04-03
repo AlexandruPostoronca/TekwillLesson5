@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: '000'
+    is_correct: false
+  - text: 0
+    is_correct: false
+  - text: '000111222'
+    is_correct: false
+  - text: '012'
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 14 Mar 2024 22:19:02 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: What is the output
+local_check: true

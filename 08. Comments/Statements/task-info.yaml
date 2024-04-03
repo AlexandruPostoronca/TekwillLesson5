@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Using javadoc tool it is possible to generate a documentation based on comments
+      like /** javadoc */
+    is_correct: true
+  - text: A multiple-line comment begins with /* and ends with */
+    is_correct: true
+  - text: An end-of-line comment begins with // and lasts till the end of the current
+      line.
+    is_correct: true
+  - text: A multiple-line comment can't span only one line.
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 18 Mar 2024 08:39:49 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 2
+custom_name: Statements
+local_check: true

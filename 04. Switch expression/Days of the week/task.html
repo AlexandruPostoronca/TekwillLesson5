@@ -1,0 +1,30 @@
+<h2>Days of the week</h2>
+<p>Rewrite the following switch statement as a switch expression using the code template below.</p>
+
+<pre>
+    <code>
+switch (day) {
+    case MONDAY:
+    case FRIDAY:
+    case SUNDAY:
+        numLetters = 6;
+        break;
+    case TUESDAY:
+        numLetters = 7;
+        break;
+    case THURSDAY:
+    case SATURDAY:
+        numLetters = 8;
+        break;
+    case WEDNESDAY:
+        numLetters = 9;
+        break;
+    default:
+        throw new IllegalStateException("Invalid day: " + day);
+}</code>
+</pre>
+
+<div>
+    <p><strong> Sample Input 1: </strong><code>MONDAY</code></p>
+    <p><strong> Sample Output 1: </strong><code>6</code></p>
+</div>

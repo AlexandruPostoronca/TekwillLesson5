@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The result of an expression in the condition always has the boolean type.
+    is_correct: true
+  - text: "In the conditional statement, the keyword then is used;"
+    is_correct: false
+  - text: The construction if ... else if ... else if ... is possible in Java.
+    is_correct: true
+  - text: The conditional statement always has to contain the else-branch.
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am2veUqlp63F5lxEAwbBQempXPsBIjeXs2wTZafI9V0nFYxAf1rSciieVcn3ovR1XW7F96QigVF2MqEKkuOQFlCwilnLcf//jYj92VS4hTEwvUVGEQ/uSTS7mmwsCaJOpVg==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 10 Mar 2024 08:45:05 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+custom_name: Statements
+local_check: true

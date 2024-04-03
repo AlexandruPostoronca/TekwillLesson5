@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: if (!!hasEnoughMoney)
+    is_correct: false
+  - text: if (true)
+    is_correct: false
+  - text: if (hasEnoughMoney == true)
+    is_correct: false
+  - text: if (hasEnoughMoney == true && hasEnoughMoney != false)
+    is_correct: false
+  - text: if (hasEnoughMoney)
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 09 Mar 2024 23:33:57 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: The condition to travel around the world
+local_check: true

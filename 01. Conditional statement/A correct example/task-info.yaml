@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "if [i < j] System.out.print(\"Hello!\");"
+    is_correct: false
+  - text: "if i < j { System.out.print(\"Hello!\"); }"
+    is_correct: false
+  - text: if (i < j) then  System.out.print("Hello!");
+    is_correct: false
+  - text: "if {i < j} then System.out.print(\"Hello!\");"
+    is_correct: false
+  - text: "if (i < j) { System.out.print(\"Hello!\"); }"
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 09 Mar 2024 23:35:08 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: A correct example
+local_check: true

@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 0 1 2 3 4 5
+    is_correct: false
+  - text: 6 7 8 9
+    is_correct: true
+  - text: 0 1 2 3 4 5 6
+    is_correct: false
+  - text: 7 8 9
+    is_correct: false
+  - text: 0 1 2 3 4 5 6 7 8 9
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 14 Mar 2024 22:16:32 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: A suitable output
+local_check: true

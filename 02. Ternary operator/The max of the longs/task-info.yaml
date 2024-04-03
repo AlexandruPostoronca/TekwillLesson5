@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "long max = first > second ? first : second;"
+    is_correct: true
+  - text: "long max = first > second !? first : second;"
+    is_correct: false
+  - text: "long max = first : second ? first > second;"
+    is_correct: false
+  - text: "long max = first > second ? second : first;"
+    is_correct: false
+  - text: "long max = first < second ? second : first;"
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 10 Mar 2024 12:32:16 UTC"
+record: -1
+selected_options:
+  - 0
+  - 4
+custom_name: The max of the longs
+local_check: true
