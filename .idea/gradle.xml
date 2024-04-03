@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/A correct example" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Check a number is positive" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Chocolate" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Determine the output" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Healthy sleep" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Interval" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Leap year" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Statements" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Symmetrical number" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/The army of units" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/The condition to travel around the world" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Theory" />
+            <option value="$PROJECT_DIR$/01. Conditional statement/Triangle" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Correct general syntax" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Find the maximum of two numbers" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Given two variables" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Rewriting a conditional statement" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/The max of the longs" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Theory" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/What does the double ternary operator do" />
+            <option value="$PROJECT_DIR$/02. Ternary operator/Write a ternary operator" />
+            <option value="$PROJECT_DIR$/03. Switch statement/A simple calculator" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Direction" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Floor-space of the room" />
+            <option value="$PROJECT_DIR$/03. Switch statement/From string to a number" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Harry Potter" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Removing breaks" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Rewriting code using switch" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Shape" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Statements" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Test learners" />
+            <option value="$PROJECT_DIR$/03. Switch statement/Theory" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Advantages of switch expressions" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Days of the week" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Invalid syntax" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Making it compile" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Meteorological seasons" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Months of the year" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Switch expression keywords" />
+            <option value="$PROJECT_DIR$/04. Switch expression/Theory" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Arithmetic average" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Determine the result" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Fizz Buzz" />
+            <option value="$PROJECT_DIR$/05. The for-loop/From sum to product" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Grades" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Maximum element divisible by four" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Numbers divisible by six" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Size of parts" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Statements" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Such different for loops" />
+            <option value="$PROJECT_DIR$/05. The for-loop/The count of numbers divisible by N" />
+            <option value="$PROJECT_DIR$/05. The for-loop/The product of numbers from a to b" />
+            <option value="$PROJECT_DIR$/05. The for-loop/The sum of integers from a to b" />
+            <option value="$PROJECT_DIR$/05. The for-loop/Theory" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Collatz conjecture" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Determine the result" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Determine the result 2" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Magic code" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Squares of natural numbers" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Statements" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The largest element of a sequence" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The length of the sequence" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The number of loop body executions" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The sequence" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The smallest value" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/The sum of elements" />
+            <option value="$PROJECT_DIR$/06. The while and do-while loops/Theory" />
+            <option value="$PROJECT_DIR$/07. Branching statements/A keyword to terminate the loop" />
+            <option value="$PROJECT_DIR$/07. Branching statements/A suitable output" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Bus tour" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Even or odd" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Statement for skipping an iteration" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Statements" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Statements about break and continue" />
+            <option value="$PROJECT_DIR$/07. Branching statements/The integer barrier" />
+            <option value="$PROJECT_DIR$/07. Branching statements/The same results" />
+            <option value="$PROJECT_DIR$/07. Branching statements/The sequence" />
+            <option value="$PROJECT_DIR$/07. Branching statements/Theory" />
+            <option value="$PROJECT_DIR$/07. Branching statements/What does the code print" />
+            <option value="$PROJECT_DIR$/07. Branching statements/What is the output" />
+            <option value="$PROJECT_DIR$/08. Comments/Forms of comments" />
+            <option value="$PROJECT_DIR$/08. Comments/Hello, Java platform" />
+            <option value="$PROJECT_DIR$/08. Comments/Incorrect comments" />
+            <option value="$PROJECT_DIR$/08. Comments/Javadoc comment" />
+            <option value="$PROJECT_DIR$/08. Comments/Printing only the longest line" />
+            <option value="$PROJECT_DIR$/08. Comments/Select all correct comments" />
+            <option value="$PROJECT_DIR$/08. Comments/Statements" />
+            <option value="$PROJECT_DIR$/08. Comments/The countdown" />
+            <option value="$PROJECT_DIR$/08. Comments/The forgotten comments" />
+            <option value="$PROJECT_DIR$/08. Comments/Theory" />
+            <option value="$PROJECT_DIR$/08. Comments/Three numbers" />
+            <option value="$PROJECT_DIR$/08. Comments/Uncomment a line" />
+            <option value="$PROJECT_DIR$/08. Comments/What comments are not used in the program" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
